@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Imagens Dinamica</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <P>Você Consegue Ver imagem completa? Amplie para ver</P>
+    <picture>
+        
+        <source media="(max-width:825px)" srcset="imagem/paissagemR.jpg" type="image/jpeg">
+        <source media="(max-width: 1607px)" srcset="imagem/paissagem1150.jpg" type="image/jpeg">
+        <source media="(max-width: 1944px )" srcset="imagem/paissagem1600.jpg" type="image/jpeg">
+        <img src="imagem/paissagem.jpg" alt="paissagem">
+    
+    </picture>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+:root{
+    --cor0: #7afb4b28;
+    
+}
+
+body{
+    background-color: #7afb4b28;
+    margin: 0px;
+}
+
+header {
+        background: linear-gradient(to bottom, #2c9e027c 20%,  #258602 75%);
+        padding: 10px 10px;
+        
+    }
+
+
+header > h1 {
+    text-align: center;
+    color: white;
+    margin:  20px;
+    text-shadow: 1px 1px 2px black;
+    }
+
+header > div p {
+    color: white;
+    font-weight: 500;
+    
+}
+
+ a {
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: aqua;
+    }
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.box{
+    margin: 1px 0px 5px;
+    text-align: center;
+    width:400px;
+    
+}
+
+main {
+    width:960px;
+    height: 100%;
+    position: sticky;
+    padding: 12px 10px 7px 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+}
+
+.box1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.textcaixa {
+    display: block;
+    align-items: flex-start;
+    text-indent: 2em;
+}
+
+.imgCenter {
+    display: block;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'android' ;
+    src: url(../fontes/idroid.otf);
+    font-weight: normal ;
+}
+
+.android {
+    font: normal normal 1.5em 'android';
+    color:#174d05;
+    padding: 3px;
+    background: linear-gradient(to right, #2c9e02b9 , #2586021e );
+    background-attachment: fixed;
+
+}
+    
+
+footer{
+    background-color: #185203de;
+    text-align: center;
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+footer > p {
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+h2 {
+    font: normal normal 1.2em 'android';
+    color:#174d05;
+    padding: 3px;
+    background: linear-gradient(to right, #2c9e02b9 , #2586021e );
+    background-attachment: fixed;
+}
+
+.faixa3{
+    background-color: #174d05d2;
+    color: #fff;
+    font-size: 17px;
+    padding: 9px 0px px 12px;
+    border-radius: 7px 10px 0px 0px;
+}
+
+.painel3 {
+    background-color: #4fc72650;
+}
+
+h3 {
+    margin: 0;
+}
+
+
+
+.list {
+    list-style: none;
+    columns: 2;
+}
+article > p {
+    margin: 0px;
+    padding: 10px;
+}

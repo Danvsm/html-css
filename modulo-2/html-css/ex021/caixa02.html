@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body{
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: rgba(75, 100, 211, 0.226);
+        }
+        
+
+
+        header{
+            background-color: white;
+            padding: 3px 10px 10px;
+            border-radius: 3px;
+        }
+       
+        
+        nav{
+            background-color: antiquewhite;
+            padding: 5px 3px;
+            box-shadow: 1px 1.1px 3px rgba(0, 0, 0, 0.274);
+            border-radius: 1px;
+        }
+        
+        nav > a{
+            text-decoration: none;
+        }
+        
+        main{
+            background-color: white;
+            padding: 10px 5px;
+            margin: 10px 0px;
+            border-radius: 5px;
+        }
+       
+        article {
+            background-color:rgba(75, 100, 211, 0.103) ;
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: rgba(75, 100, 211, 0.123) ;
+        }
+
+        footer{
+            background-color: rgb(17, 16, 16);
+            margin: 4px 0px;
+        }
+        
+        footer > p{
+            color: white;
+            font-weight: 500;
+            padding: 7px;
+            text-align: center;
+        }
+
+        .titulo {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(75, 100, 211);
+            text-shadow: 0px 0px 20px rgba(75, 100, 211, 0.363);
+        }
+
+        .selecionar:hover{
+            color: brown;
+        }
+        
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Jornal CBB</h1>
+        <nav>
+            <a href="#" class="selecionar">Link</a>
+            <a href="#" class="selecionar">Link</a>
+            <a href="#" class="selecionar">Link</a>
+            <a href="#"class="selecionar">Link</a>
+            <a href="#"class="selecionar">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticia">
+            <article>
+                <h2 class="titulo">Notícia sobre Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aperiam et fugiat dolorem explicabo quo minima, in, dolores velit esse perferendis quod repellendus! Optio est ea numquam possimus, sit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit in, nesciunt rerum consectetur ipsam distinctio molestias tenetur voluptatem, nobis iure, excepturi fugit. Eaque minima dolores doloribus praesentium voluptatem vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dignissimos debitis omnis iure animi mollitia earum velit consectetur maiores numquam illo vitae impedit nihil, adipisci soluta explicabo deleniti tempore obcaecati.</p>
+                
+                <aside>
+                    <p><cite>Artigo escrito por José da Silva</cite></p>
+                </aside>                
+            </article>
+        </section>
+    
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Vsm Produção</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
