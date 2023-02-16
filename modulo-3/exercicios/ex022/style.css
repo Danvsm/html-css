@@ -12,7 +12,8 @@ h1 {
 header {
     min-height: 100px;
     max-height: 200px;
-    
+    width: 100%;
+
     color: white;
     background-color: #cccccc;
     background-image: linear-gradient(to top, rgb(54, 54, 54), black);
@@ -48,8 +49,7 @@ section {
     min-height: 1050px;
     max-height: 800px;
 
-    max-width: 325px;
-    min-width: 100%;
+    width: 100vh;
 }
 
 section > p {
@@ -78,17 +78,18 @@ div {
 }
 
 footer {
-    display: inline-block;
+    display: block;
     min-height: 40px;
     max-height: 80px;
-    width: 100%;
+    
+    width: 100%px;
 
 
     font-size: 1.1em;
     
     margin-top: 20px;
     padding-top: 25px;
-    align-items: center;
+
     text-align: center;
     
     
