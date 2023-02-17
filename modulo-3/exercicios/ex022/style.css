@@ -117,10 +117,11 @@ footer {
 
 #img1 {
    
-    
+    height: 950px;
     color: white;
     background-color: #cccccc;
     background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     
@@ -129,11 +130,12 @@ footer {
 
 #img2 {
    
- 
+    height: 950px;
     
     color: white;
     background-color: #cccccc;
     background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: bottom; 
 }
