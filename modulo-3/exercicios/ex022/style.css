@@ -9,6 +9,7 @@ h1 {
 
 }
 
+
 header {
     min-height: 100px;
     max-height: 200px;
@@ -49,7 +50,7 @@ section {
     min-height: 1050px;
     max-height: 800px;
 
-    width: 100vh;
+    
 }
 
 section > p {
@@ -63,8 +64,6 @@ div {
     
     display: block;
     max-height: 600px;
-    
-    
     max-width: 450px;
 
     position: absolute;
@@ -78,11 +77,12 @@ div {
 }
 
 footer {
+    position: relative;
     display: block;
     min-height: 40px;
     max-height: 80px;
     
-    width: 100%px;
+    width: 100%;
 
 
     font-size: 1.1em;
@@ -99,9 +99,11 @@ footer {
 }
 
 .normal {
+    
+   
     background-color: white;    
     
-
+    
     font-weight: 600;
     font-size: 1.5em;
     
@@ -114,22 +116,24 @@ footer {
 }
 
 #img1 {
-  
+   
+    
+    color: white;
     background-color: #cccccc;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-position: center;
-
-    color: white;
+    
     
 }
 
 #img2 {
-
+   
+ 
+    
+    color: white;
     background-color: #cccccc;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-    background-position: bottom;
-
-    color: white;
+    background-position: bottom; 
 }
